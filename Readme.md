@@ -139,7 +139,7 @@ In this section, we will develop and deploy simple extension application which c
 
     ![Step Image](images/14-part1-step4-webide-status.png)
 
-5. Open SAP Web IDE Full Stack.
+5. Open SAP Web IDE Full Stack. When prompted for the credentials on SuccessFactors login, enter the credentials of devuserXXX to proceed. 
 
     ![Step Image](images/15-part1-step5-webide-open.png)
 
@@ -384,6 +384,8 @@ Roles can be maintained either on SAP Cloud Platform or SAP LoB solution that yo
 4. Deploy Application to SAP Cloud Platform
 
     ![Step Image](images/43-part4-step4-deploy.png)
+    
+    When deploying, if you get an error related to "npm Integrity", right click on the project -> Build -> Clean npm Folder. 
 
 5. Logon to SAP Cloud Platform cockpit by navigating to HTML5 application tab and open HTMl5 application that you deployed in the previous step.
 
